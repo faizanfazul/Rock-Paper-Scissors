@@ -6,3 +6,11 @@ html{
     background-color: black;
     color: #fff;
 }
+img{
+    text-align: center;
+    height: auto;
+    width: 660px;
+}
+div{
+    text-align: center;
+}
