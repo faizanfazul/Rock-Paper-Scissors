@@ -20,7 +20,7 @@ function game() {
     } else if (playerSelection === "scissor" && computerSelection === "paper") {
       return "You win! Scissor beat paper";
     } else if (playerSelection === "scissor" && computerSelection === "rock") {
-      return "You lose!Rock beats scissor";
+      return "You lose! Rock beats scissor";
     }
   }
 
@@ -35,3 +35,4 @@ function game() {
 for (let i = 0; i < 5; i++) {
    game()
 }
+console.warn("This is END Please Refresh the page to play again")
