@@ -1,9 +1,10 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 html{
-    background-color: black;
+    background: rgb(72, 150, 207);
     color: #fff;
 }
 img{
@@ -13,4 +14,27 @@ img{
 }
 div{
     text-align: center;
+}
+button {
+    color: black;
+    background-color: coral;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: large;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #fff;
+    background-color: lawngreen;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: large;
+    cursor: pointer;
+}
+
+p {
+    color: #fff;
+    font-weight: 900;
+    font-size: larger;
 }

@@ -32,12 +32,21 @@ function game() {
   const playerSelection = prompt(
     "Choose your weapon | rock🪨, paper📃 or scissor✂️"
   );
-  console.warn("You Selected " + '"' + playerSelection + '"');
-  console.error("Computer Selected " + '"' + computerSelection + '"');
-  console.log("Results: " + playRound(playerSelection, computerSelection));
+  console.log("%cYou Selected " + '"' + playerSelection + '"',"color:red;font-size:20px");
+  console.log(
+    "%cComputer Selected " + '"' + computerSelection + '"',
+    "color:blue;font-size:20px"
+  );
+  console.log(
+    "%cResults: " + playRound(playerSelection, computerSelection),
+    "color:yellow;font-size:20px"
+  );
 }
 
-for (let i = 0; i < 5; i++) {
-  game();
+function start() {
+  for (let i = 0; i < 5; i++) {
+    game();
+  }
+  console.log("%cThis is END press the Button to play again.","color:coral; font-size:20px;");
 }
-console.warn("This is END Please Refresh the page to play again.");
+  
