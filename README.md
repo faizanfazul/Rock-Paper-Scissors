@@ -4,7 +4,7 @@
 
 ### Play This Online https://faizanfazul.github.io/Rock-Paper-Scissors/ <br>
 
-1.Here a person is against the computer lets see who wins!
+1.Here a person is against the computer lets see who wins!<br>
 2.Created GUI in this branch.
 <br>
 
