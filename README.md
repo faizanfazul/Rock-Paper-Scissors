@@ -2,10 +2,10 @@
 ### Another project given by The Odin Project. https://www.theodinproject.com/lessons/foundations-rock-paper-scissors
 <br>
 
-### Play This Online https://faizanfazul.github.io/Rock-Paper-Scissors/ <br>
+## To play this online change branch to rps-ui where you can find the link.
 
-1.Here a person is against the computer lets see who wins!
-
+1.Here a person is against the computer lets see who wins!<br>
+2.This is console based I have also made GUI in the rps-ui so check it out.
 <br>
 
 ## PS:
