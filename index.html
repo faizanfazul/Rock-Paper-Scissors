@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script defer src="app.js"></script>
 </head>
+
 <body>
-    <h1>This game is for console only we will make it GUI soon</h1>
-    <h2>This game is played five times so you have 5 chances to win from the computer!</h2>
-    <p>First open the console by pressing F12 ==><br><br>Then click start:</p>
-    <button onclick="start()">Start the game</button>
+    <span id="computer-score">
+        Computer:
+    </span>
+    <span id="your-score">
+        Your:
+    </span>
+    <p id="you"></p>
+    <p id="computer"></p>
     <div>
-        <img src="f.png" alt="name in 3d">
+        <img src="images/rock.jpg" alt="Rock image" data-selection="rock">
+        <img src="images/paper.jpg" alt="paper image" data-selection="paper">
+        <img src="images/scissor.jpg" alt="scissor image" data-selection="scissor">
     </div>
+   
+    <p id="results"></p>
 </body>
+
 </html>
