@@ -15,6 +15,12 @@ img {
     border: 3px solid #fff;
 }
 
+.make{
+    font-size: 2em;
+    color: blueviolet;
+    margin-left: 180px;
+}
+
 img:hover {
     width: auto;
     height: 260px;
@@ -23,7 +29,7 @@ img:hover {
     transform: scale(1.1);
     transition: 100ms;
     cursor: pointer;
-    box-shadow: 12px 13px 30px rgb(255, 255, 255);
+    opacity: 0.5;
 }
 
 div {
@@ -37,9 +43,6 @@ span {
     color: #fff;
 }
 
-#your-score {
-    text-align: right;
-}
 
 p {
     text-align: center;
@@ -48,16 +51,16 @@ p {
 }
 
 #you {
-    font-size: 2em;
+    font-size: 1.5em;
     color: yellow;
 }
 
 #computer {
-    font-size: 2em;
+    font-size: 1.5em;
     color: blue;
 }
 
 #results {
-    font-size: 2em;
+    font-size: 1.8em;
     color: lightcoral;
 }
