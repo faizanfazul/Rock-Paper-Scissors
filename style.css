@@ -1,53 +1,53 @@
-*{
+* {
     padding: 0;
     margin: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-html{
+html {
     background-color: black;
 }
 
-img{
+img {
     width: auto;
     height: 260px;
     border-radius: 20px;
     border: 3px solid #fff;
 }
 
-img:hover{
+img:hover {
     width: auto;
     height: 260px;
     border-radius: 20px;
     border: 3px solid #fff;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 100ms;
     cursor: pointer;
-    box-shadow:12px 13px 30px rgb(255, 255, 255);
+    box-shadow: 12px 13px 30px rgb(255, 255, 255);
 }
 
-div{
+div {
     text-align: center;
     margin-left: 3em;
 }
 
-span{
+span {
     font-size: 1.5em;
     font-weight: bolder;
     color: #fff;
 }
 
-#your-score{
+#your-score {
     text-align: right;
 }
 
-p{
+p {
     text-align: center;
     font-size: 2em;
     font-weight: bolder;
 }
 
-#you{
+#you {
     font-size: 2em;
     color: yellow;
 }
@@ -57,7 +57,7 @@ p{
     color: blue;
 }
 
-#results{
+#results {
     font-size: 2em;
     color: lightcoral;
 }
