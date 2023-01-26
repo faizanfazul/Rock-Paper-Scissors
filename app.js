@@ -45,13 +45,14 @@ userSelections.forEach((userSelection) => {
         return "You lose!😢 Rock beats scissor " + ComputerScore++;
       }
     };
+
     if (yourScore == 10) {
       alert("Congratulations!🎉 You won the Game ");
     }
     if (ComputerScore == 10) {
-      alert("Alas!😔 You lost the Game ");
-      
+      alert("Alas!😔 You lost the Game ");  
     }
+    
     document.getElementById("your-score").innerText = `You: ${yourScore}`;
     document.getElementById(
       "computer-score"

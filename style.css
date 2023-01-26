@@ -32,7 +32,7 @@ img:hover {
     opacity: 0.5;
 }
 
-div {
+.images {
     text-align: center;
     margin-left: 3em;
 }
@@ -57,7 +57,7 @@ p {
 
 #computer {
     font-size: 1.5em;
-    color: blue;
+    color: lightgreen;
 }
 
 #results {
