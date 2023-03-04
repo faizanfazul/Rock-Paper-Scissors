@@ -48,9 +48,13 @@ userSelections.forEach((userSelection) => {
 
     if (yourScore == 10) {
       document.getElementById("won").innerText = "Congratulations!🎉 You won the Game ";
+      yourScore = 0;
+      ComputerScore = 0;
     }
     if (ComputerScore == 10) {
         document.getElementById("won").innerText = "Alas!😔 You lost the Game ";
+        yourScore = 0;
+        ComputerScore = 0;;
     }
     
     document.getElementById("your-score").innerText = `You: ${yourScore}`;

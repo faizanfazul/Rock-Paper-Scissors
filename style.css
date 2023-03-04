@@ -1,24 +1,32 @@
 * {
     padding: 0;
-    margin: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 html {
     background-color: black;
+    color: #fff;
+}
+
+h1{
+    color: blueviolet;
+}
+
+h2{
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.message{
+    text-align: center;
 }
 
 img {
     width: auto;
     height: 260px;
     border-radius: 20px;
+    margin-left: 20px;
     border: 3px solid #fff;
-}
-
-.make{
-    font-size: 2em;
-    color: blueviolet;
-    margin-left: 180px;
 }
 
 img:hover {
@@ -32,21 +40,12 @@ img:hover {
     opacity: 0.5;
 }
 
-.images {
+.images-container {
     text-align: center;
-    margin-left: 3em;
 }
-
-span {
-    font-size: 1.5em;
-    font-weight: bolder;
-    color: #fff;
-}
-
 
 p {
     text-align: center;
-    font-size: 2em;
     font-weight: bolder;
 }
 
@@ -63,4 +62,21 @@ p {
 #results {
     font-size: 1.8em;
     color: lightcoral;
+}
+
+
+@media only screen and (max-width:600px) {
+    img{
+        height: 130px;
+        margin: auto;
+    }
+    img:hover{
+        height: 130px;
+    }
+    h2{
+    margin-left: 10%;
+    }
+    p{
+        font-size: 1em;
+    }
 }
